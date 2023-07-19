@@ -1,0 +1,360 @@
+/* inter-regular - latin */
+
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/inter-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./fonts/inter-v12-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/inter-v12-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* montserrat-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./fonts/montserrat-v25-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* montserrat-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/montserrat-v25-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/inter-v12-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+ul li, a{
+    text-decoration: none;
+    list-style: none;
+}
+a:hover{
+   color: #e4e5eac8;
+}
+p,ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    color: #E4E5EA;
+}
+.wrapper{
+    background-color: #0E1014;
+    max-width: 100%;
+    min-height: 100vh;
+    padding: 0px 150px 20px;
+}
+
+/* header */
+
+header{
+    padding-top: 47px;
+    margin-bottom: 90px;
+}
+.header__main{
+    align-items: center;
+    display: flex;
+    margin-bottom: 6px;
+    justify-content: space-between;
+}
+.nav__list{
+    display: flex; 
+}
+.nav__item{
+    margin-right: 30px;
+    letter-spacing: 1.4px;
+}
+
+.social{
+    display: flex;
+}
+.logo-text{
+    max-width: 145px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 10px;
+    letter-spacing: 0.98px;
+}
+.logoNav{
+    display: flex;
+}
+.phone{
+    margin-right: 47px;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+}
+.social__item{
+    margin-right: 30px;
+}
+.social__item:last-child{
+    margin-right: 0px;
+}
+.header__contacts{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-right: 52px;
+}
+
+/* main part */
+
+.main__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 124px;
+}
+
+.left__header{
+    font-weight: 400;
+    font-size: 48px;
+    max-width: 362px;
+    line-height: 58.09px;
+    margin-bottom: 30px;
+    letter-spacing: 4.8px;
+}
+.left__gradient-span{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58.09px;
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0;
+
+}
+.left__desc{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;    
+    max-width: 275px;
+    letter-spacing: 2.2px;
+}
+.right{
+    max-width: 316px;
+    padding-top: 16px;
+}
+.right__header{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-align: right;
+    margin-bottom: 40px;
+    letter-spacing: 0.8px;
+}
+.right__gradient-span{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0em;
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%),
+linear-gradient(0deg, #E4E5EA, #E4E5EA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+}
+.right__grid{
+    display: grid;
+    grid-template-columns: repeat(2,143px);
+    grid-template-rows: repeat(2,auto);
+    margin-bottom: 60px;
+    gap: 30px; 
+}
+
+.right__gridHeader{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-align: right;   
+    text-transform: uppercase; 
+    margin-bottom: 6px;
+}
+.right__gridText{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: right;   
+    letter-spacing: 2px;
+}
+.right__button{
+    box-sizing: border-box;
+    padding: 21px 34px;
+    background-color: #4077F3;
+    display: flex;
+    justify-content: center;
+    width: 262px;
+    height: 61px;
+    margin: 0 auto;
+    margin-right: 0px;
+}
+.right__button:hover{
+    cursor: pointer;
+    background-color: #4076f3d0;
+}
+.right__button a{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    letter-spacing: 1.3px;
+}
+
+/* footer */
+
+.footer__wrapper{
+display: flex;
+margin-bottom: 24px;
+justify-content: space-between;
+}
+.aboutCompany{
+    margin-right: 98px;
+}
+.footer__header{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #656566;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.footer__listItem{
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+ }
+
+.footer__listItem a{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer__listImg{
+    margin-right: 10px;
+}
+.footer__social{
+    display: flex;
+    justify-content: end;
+}
+
+.menu__wrapper{
+    display: flex;
+}
+.footer__wrapperLeft{
+    display: flex;
+}
+.menu__left{
+    margin-right: 52px;
+}
+
+.footer__listContacts{
+    margin-bottom: 24px;
+    letter-spacing: 0;
+}
+.footer__contacts{
+text-align: end;
+}
+.footer__adress{
+    letter-spacing: 0.8px;
+}
+
+.footer__copyrightText{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: end;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+
+.redlight{
+    position: absolute;
+    top:251px;
+
+}
+.redlight img{
+    width: 311px;
+    height: 311px;
+}
+
+.sphera1{
+    border-radius: 50%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -2px;
+    left: 868px;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, 
+    rgba(236, 208, 255, 0.64) 0%, 
+    rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, 
+    rgba(86, 24, 128, 0.232) 100%) ;
+    box-shadow: 3px 6px 27px -10px #B176D940;
+    
+}
+.sphera2{
+    border-radius: 50%;
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    top: 73px;
+    left: 519px;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, 
+    rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, 
+    rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%);
+    box-shadow: 3px 6px 27px -10px #DF7D7D40;
+    
+}
+.sphera3{
+    border-radius: 50%;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 538px;
+    left: 851px;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, 
+    rgba(255, 208, 208, 0.48) 0%, 
+    rgba(212, 93, 93, 0.248) 59.67%, 
+    rgba(167, 49, 49, 0.264) 78.59%, rgba(130, 25, 25, 0.232) 100%) ;
+    box-shadow: 3px 6px 27px -10px #DF7D7D40;
+}
+
