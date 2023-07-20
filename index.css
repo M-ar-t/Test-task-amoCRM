@@ -287,16 +287,19 @@ linear-gradient(0deg, #E4E5EA, #E4E5EA);
 .footer__contacts{
 text-align: end;
 }
-
+.footer__list{
+    margin-bottom: 70px;
+}
 .footer__copyrightText{
     font-family: Montserrat;
     font-size: 12px;
     font-weight: 400;
     text-align: end;
     margin-bottom: 4px;
-    margin-right: 61px;
 }
-
+.privacy-policy{
+    text-decoration: underline;
+}
 .redlight{
     position: absolute;
     top:251px;
